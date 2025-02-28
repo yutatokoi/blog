@@ -1,0 +1,54 @@
+---
+import { SITE_DESCRIPTION, SITE_TITLE } from "../../consts";
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout
+  title={SITE_TITLE}
+  description={SITE_DESCRIPTION}
+  className="flex h-svh max-w-sm flex-col justify-center"
+>
+  <main class="space-y-4">
+    <h3>
+      Internships
+    </h3>
+    <ul class="flex flex-col gap-1.5">
+      <li> 
+        <a
+          href="https://www.digitalgrid.com"
+          target="_blank"
+          class="text-blue-500 underline"
+        >DIGITAL GRID Corporation</a
+        > - Security Engineer Intern
+      </li>
+    </ul>
+
+    <hr>
+
+    <h3>
+      Hackathons
+    </h3>
+    <ul class="flex flex-col gap-1.5">
+      <li> 
+        <a
+          href="https://www.digital.go.jp/news/0ac7897f-acd6-47c6-a579-48339d4805e0"
+          target="_blank"
+          class="text-blue-500 underline"
+        >デジタル庁    「法令」  ×  「デジタル」  ハッカソン </a
+        >
+      </li>
+    </ul>
+
+    <hr>
+
+    <h3>
+      Talks
+    </h3>
+    <ul class="flex flex-col gap-1.5">
+      <li> 
+        ゴリラ.vim #34
+      </li>
+    </ul>
+
+  </main>
+</Layout>
