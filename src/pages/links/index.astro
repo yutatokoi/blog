@@ -1,0 +1,32 @@
+---
+import { SITE_DESCRIPTION, SITE_TITLE } from "../../consts";
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout
+  title={SITE_TITLE}
+  description={SITE_DESCRIPTION}
+  className="flex h-svh max-w-sm flex-col justify-center"
+>
+  <main class="space-y-4">
+    <ul class="flex flex-col gap-1.5">
+      <li> 
+        <a
+          href="https://github.com/yutatokoi"
+          target="_blank"
+          class="text-blue-500 underline"
+        >GitHub</a
+        >
+      </li>
+      <li> 
+        CV (to be added)
+      </li>
+      <li> 
+        履歴書 (to be added)
+      </li>
+      <li> 
+        Email: yutatokoi [at] proton.me
+      </li>
+    </ul>
+  </main>
+</Layout>
