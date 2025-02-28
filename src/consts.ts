@@ -6,5 +6,3 @@ export const SITE_TITLE = "Yuta Tokoi";
 export const SITE_DESCRIPTION =
   "Yuta Tokoi's Website | 床井祐太のウェブサイト";
 
-export const EMAIL = "yutatokoi@proton.me";
-
