@@ -31,8 +31,7 @@ Edit the `src/consts.ts` file to update your information and site's metadata:
 ```ts
 export const SITE_URL = "https://yutatokoi.com";
 export const SITE_TITLE = "Yuta Tokoi";
-export const SITE_DESCRIPTION =
-  "Yuta Tokoi's Website | 床井祐太のウェブサイト";
+export const SITE_DESCRIPTION = "Yuta Tokoi's Website | 床井祐太のウェブサイト";
 ```
 
 ### Blog Posts
