@@ -4,23 +4,25 @@ This blog uses the [Miniblog template](https://github.com/nicholasdly/miniblog) 
 
 ## Getting Started
 
-1. Install dependencies:
-
-```bash
-npm install
-```
-
-2. Start the development server:
+1. Enter Nix development shell:
 
 ```bash
 nix-shell
 ```
 
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Start the development server:
+
 ```bash
 npm run dev
 ```
 
-3. Optionally, format your code after making changes:
+4. Optionally, format your code after making changes:
 
 ```bash
 npm run format
