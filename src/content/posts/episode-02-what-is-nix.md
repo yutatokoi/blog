@@ -29,3 +29,4 @@ date: "2025-03-17"
 - パッケージマネージャで使えるパッケージを検索するページ：<https://search.nixos.org/packages>
 - 公認の資料集：<https://github.com/nix-community/awesome-nix>
 - Nix 関連の学術研究：<https://nixos.org/research/>
+- Nix Pills：<https://nixos.org/guides/nix-pills/>
