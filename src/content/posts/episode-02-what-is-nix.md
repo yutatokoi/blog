@@ -26,6 +26,7 @@ date: "2025-03-17"
 ## Nix 資料集
 
 - 公式ドキュメント：<https://nix.dev/>
+    - 用語集：<https://nix.dev/manual/nix/2.24/glossary.html>
 - パッケージマネージャで使えるパッケージを検索するページ：<https://search.nixos.org/packages>
 - 公認の資料集：<https://github.com/nix-community/awesome-nix>
 - Nix 関連の学術研究：<https://nixos.org/research/>
