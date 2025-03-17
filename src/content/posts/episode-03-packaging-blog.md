@@ -14,5 +14,6 @@ date: "2025-03-19"
 
 開発環境ができたものの、今の状態ではあまりありがたみを感じられない。というのも、Homebrew を使っていた状態でブログの開発に問題があったわけではなく、大量のパッケージやツールを利用していたわけでもなく、長期に及んでの開発を行ってきたわけでもないので。ただ、（相変わらず沢山の文章を読んだり動画を観たりすれば）非常に簡単にできて、`nix-shell` というコマンドを打つというステップが一つ増えただけで、以前と同じ状態で開発できている。
 
-ローカル開発環境における Docker と `nix-shell` の違いについてのディスカッション（2018年〜2019年）：<https://discourse.nixos.org/t/is-there-much-difference-between-using-nix-shell-and-docker-for-local-development/807>
-TL;DR Docker より Nix で開発環境を構築する方が再現性が高い。これは Docker が命令型であるのに対して、Nix は宣言型であるから。Docker で使う `apt-get update`、`apt-get install ...`、`wget ...`のようなコマンドたちは、ソースが変わってしまえば出来上がるイメージも変わる。それに対し、Nixでは特定のコミットハッシュを基に構成されるため、毎回同じソースを参照する。かなり前の情報ではあるが、今でも同じだと思う。
+ローカル開発環境における Docker と `nix-shell` の違いについてのディスカッション（2018年〜2019年）：<https://discourse.nixos.org/t/is-there-much-difference-between-using-nix-shell-and-docker-for-local-development/807>。TL;DR Docker より Nix で開発環境を構築する方が再現性が高い。これは Docker が命令型であるのに対して、Nix は宣言型であるから。Docker で使う `apt-get update`、`apt-get install ...`、`wget ...`のようなコマンドたちは、ソースが変わってしまえば出来上がるイメージも変わる。それに対し、Nixでは特定のコミットハッシュを基に構成されるため、毎回同じソースを参照する。かなり前の情報ではあるが、今でも同じだと思う。
+
+また、`flakes.nix` で Flakes を活用した方法以外にも devenv というツールがある：<https://devenv.sh/>。もっと複雑な開発環境の構築が必要になれば検討するのも良い。
