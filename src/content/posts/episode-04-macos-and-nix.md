@@ -4,7 +4,11 @@ description: "エンジニアになりたいとインターンに出て行った
 date: "2025-03-20"
 ---
 
-macOS で Nix を使用するガイドや事例、Homebrew から Nix に移行する方法を読んだ。あまりにも多いので、今回は資料のメモだけを書く。
+*Last updated*: 2025-03-21
+
+macOS で Nix を使用するガイドや事例、Homebrew から Nix に移行する方法を読んだ。
+
+## 資料のメモ
 
 - OPENLOGI で働くこのエンジニアの方は公式インストーラじゃなくて Determinate Systems インストーラを使っている：[Nixで整える開発環境](https://zenn.dev/mizunashi_mana/articles/19707d72b56c00#nix%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B)
 - macOS に Home Manager のみを使ってインストールすると、デスクトップアプリがアプリケーション一覧に表示されないらしい [開発マシンの環境セットアップをAnsibleからNixに移行した ](https://blog.handlena.me/entry/2025/02/migrate-from-ansible-to-nix/#%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97%E3%82%A2%E3%83%97%E3%83%AA%E3%81%8C%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E4%B8%80%E8%A6%A7%E3%81%AB%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%AA%E3%81%84)
@@ -39,3 +43,9 @@ macOS で Nix を使用するガイドや事例、Homebrew から Nix に移行�
     - ただ Home Manager の使用はシェルの設定のために推奨している。
 - 私が使うターミナルエミュレータ Ghostty の開発者、そして Terraform などを手がける HashiCorp 創業者 Mitchell Hashimoto の NixOS：<https://github.com/mitchellh/nixos-config>
     - 彼は macOS の GUI アプリケーションを使ったり、Home Manager を使用しているが、VMWare Fusion で NixOS の VM を立ち上げて、そっちでターミナルやその他開発ツールを使っている。
+
+## 自分はどうするか
+
+Nix は当然使うわけだが、あとは Home Manager と `nix-darwin` を使うかどうかを選ばなければいけない。それぞれで出来るとされていることを考えると手を出したくなる。ただ実際に試した人たちが敬遠していたり、代わりのツールを使っているとなると、興を削がれる。Mitchell Hashimoto のようにマシン自体は macOS を使い、VM 上で NixOS を使うのも一つの手だが、それもそれで手間が多そう。けど `nix-darwin` のややこしさや不安定さが改善されなければ試してみる価値はありそう。
+
+不安定なツールはあまり使いたくはないけど、試してみたいプロジェクトがあるので、そのために `nix-darwin` は自分のマシンで使ってみる。Home Manager は保留として、dotfile の管理は GNU Stow などで行うのが良さそう。
