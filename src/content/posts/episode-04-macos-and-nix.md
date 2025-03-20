@@ -8,7 +8,7 @@ macOS で Nix を使用するガイドや事例、Homebrew から Nix に移行�
 
 - OPENLOGI で働くこのエンジニアの方は Determinate Systems インストーラを使っている：[Nixで整える開発環境](https://zenn.dev/mizunashi_mana/articles/19707d72b56c00#nix%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B)
 - macOS に Home Manager のみを使ってインストールすると、デスクトップアプリがアプリケーション一覧に表示されないらしい [開発マシンの環境セットアップをAnsibleからNixに移行した ](https://blog.handlena.me/entry/2025/02/migrate-from-ansible-to-nix/#%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97%E3%82%A2%E3%83%97%E3%83%AA%E3%81%8C%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E4%B8%80%E8%A6%A7%E3%81%AB%E8%A1%A8%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%AA%E3%81%84)
-    - `nix-darwin` 経由の `Homebrew` でのインストールであれば、アプリケーション一覧に表示されるので、対策はある。
+    - `nix-darwin` 経由の Homebrew でのインストールであれば、アプリケーション一覧に表示されるので、対策はある。
     - Nix マキシマリズムは諦めて、別途に Nix 経由ではなく、普通に Homebrew をインストールして、GUI アプリは Homebrew から直接ダウンロードするというのも一つの方法：<https://gist.github.com/orzklv/c7cdda429ec2f3fe88f0662c7c9925ec>
 - [How to Learn Nix, Part 19: Switching from Homebrew to Nix](https://ianthehenry.com/posts/how-to-learn-nix/switching-from-homebrew-to-nix/)
     - `brew leaves` で depedency じゃない Homebrew formulae の一覧を取得できる。これは Homebrew からの移行時に大いに役に立ちそう。
