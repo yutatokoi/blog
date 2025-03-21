@@ -43,6 +43,7 @@ macOS で Nix を使用するガイドや事例、Homebrew から Nix に移行�
     - ただ Home Manager の使用はシェルの設定のために推奨している。
 - 私が使うターミナルエミュレータ Ghostty の開発者、そして Terraform などを手がける HashiCorp 創業者 Mitchell Hashimoto の NixOS：<https://github.com/mitchellh/nixos-config>
     - 彼は macOS の GUI アプリケーションを使ったり、Home Manager を使用しているが、VMWare Fusion で NixOS の VM を立ち上げて、そっちでターミナルやその他開発ツールを使っている。
+    - 環境について本人が詳しく説明している動画：<https://www.youtube.com/live/LA8KF9Fs2sk?si=a257VvCMFrXLn0lS&t=1054>
 
 ## 自分はどうするか
 
