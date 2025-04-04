@@ -1,6 +1,6 @@
 ---
 title: "LLMs Aren't Thinking"
-description: "If they could, they'd write good Zig code"
+description: "If they could, they'd program better with niche languages"
 date: "2025-04-05"
 ---
 
