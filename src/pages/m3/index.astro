@@ -1,0 +1,97 @@
+
+---
+import { SITE_DESCRIPTION, SITE_TITLE } from "../../consts";
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout
+  title={SITE_TITLE}
+  description={SITE_DESCRIPTION}
+  className="flex h-svh max-w-sm flex-col justify-center"
+>
+  <main class="space-y-4">
+    <h3>Profile</h3>
+    <ul class="flex flex-col gap-1.5">
+      <li>
+        名前：床井 祐太（とこい ゆうた）
+      </li>
+      <li>
+        大学：メルボルン大学
+      </li>
+      <li>
+        専攻：
+        <a 
+          href="https://study.unimelb.edu.au/find/courses/major/computing-and-software-systems/"
+          target="_blank"
+          class="text-blue-500 underline">コンピューティング・ソフトウェアシステム専攻</a>
+      </li>
+      <li>
+        2026年12月卒業予定（進学予定なし）
+      </li>
+    </ul>
+
+    <hr />
+
+    <h3>Internships</h3>
+    TODO: increase width of this page
+    TODO: Make the description a sublist under the company name.
+    <ul class="flex flex-col gap-1.5">
+      <li>
+        <a
+          href="https://www.digitalgrid.com"
+          target="_blank"
+          class="text-blue-500 underline">デジタルグリッド株式会社</a
+        > - セキュリティエンジニアインターン（2024-12~2025-02 週45時間参加） CIへの脆弱性スキャナ導入、コンテナセキュリティ改善、IaCのセキュリティ対策など。使用技術：Trivy, AWS, GitHub Actions, Terraform, Docker
+      </li>
+    </ul>
+
+    <hr />
+
+    <h3>Hackathons</h3>
+    <ul class="flex flex-col gap-1.5">
+      <li>
+        <a
+          href="https://www.digital.go.jp/news/0ac7897f-acd6-47c6-a579-48339d4805e0"
+          target="_blank"
+          class="text-blue-500 underline"
+          >デジタル庁 「法令」 × 「デジタル」 ハッカソン
+        </a> (2025-03)
+      </li>
+    </ul>
+
+    <hr />
+
+    <h3>Interests</h3>
+    <ul class="flex flex-col gap-1.5">
+      <li>
+        Nix（パッケージマネージャの方に可能性を感じています）。メインマシンの macOS で nix-darwin を使用しています。サブマシンでは NixOS を使っています。
+      </li>
+     <li>
+        サプライチェーンセキュリティ。https://queue.acm.org/detail.cfm?id=3723000
+        </li>
+    </ul>
+
+    <hr />
+
+    <h3>Tech stack</h3>
+    <ul class="flex flex-col gap-1.5">
+      <li>
+                Nix, Vim/Neovim, git, GitHub, 
+      </li>
+    </ul>
+
+    <hr />
+
+    <h3>Certifications</h3>
+    <ul class="flex flex-col gap-1.5">
+      <li>
+        <a
+          href="https://www.digital.go.jp/news/0ac7897f-acd6-47c6-a579-48339d4805e0"
+          target="_blank"
+          class="text-blue-500 underline"
+          >デジタル庁 「法令」 × 「デジタル」 ハッカソン
+        </a> (2025-03)
+      </li>
+    </ul>
+  </main>
+</Layout>
