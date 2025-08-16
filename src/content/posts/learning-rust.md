@@ -28,3 +28,11 @@ As someone who is interested in the security and reliablility of software, what 
 ### Chapter 3
 
 - There are in fact constants, which are different to immutable variables. Constants must have their type explicitly declared, and can only be assigned values that are determined at compile-time, not one that could differ in run-time.
+- Integer overflows result in panicks at run-time when normally compiled. When compiled with the `--release` flag, it will wrap. But wrapping can be checked for with builtin methods. Great way to deal with this set of errors as these are also reliability concerns.
+- `char` is Unicode, not ASCII
+- Indexing the `i`-th element of a tuple `x` is written: `x.i`
+- "Arrays" are fixed-size and stored on the heap. I think Python is the only language I know that calls variable-sized lists "arrays".
+- Indexing an array outside its bounds results in a panick at run-time. Fabulous. I wish C had this.
+- Functions don't have to be defined/declared before the caller function. Great. One of the things that were tedious in C.
+- Non-Rust-specific-thing that was neat: a function takes "paramaters" as variables, and takes "arguments" as concrete values of those paramters.
+- Some tinkering I did showed me how to directly print the return value of a function: `println!("the value of return_five() is {}", return_five());`. This is neat since you don't have to deal with placeholders in control strings like in C.
