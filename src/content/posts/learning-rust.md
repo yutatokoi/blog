@@ -36,3 +36,6 @@ As someone who is interested in the security and reliablility of software, what 
 - Functions don't have to be defined/declared before the caller function. Great. One of the things that were tedious in C.
 - Non-Rust-specific-thing that was neat: a function takes "paramaters" as variables, and takes "arguments" as concrete values of those paramters.
 - Some tinkering I did showed me how to directly print the return value of a function: `println!("the value of return_five() is {}", return_five());`. This is neat since you don't have to deal with placeholders in control strings like in C.
+- No special way of writing multi-line comments. It's just `//` for each additional line.
+- Non-Boolean types will not be converted to a Boolean in places like `if` expressoins. This was a feature in other languages that was convenient once I got used to it, but was confusing at first.
+- Loop labels were a thing that I was curious why it didn't exist when I first learned the `break` statement. After picking up a few more languages, I just assumed it was a thing that wasn't possible, but Rust's got it.
