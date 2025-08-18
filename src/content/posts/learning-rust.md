@@ -39,3 +39,8 @@ As someone who is interested in the security and reliablility of software, what 
 - No special way of writing multi-line comments. It's just `//` for each additional line.
 - Non-Boolean types will not be converted to a Boolean in places like `if` expressoins. This was a feature in other languages that was convenient once I got used to it, but was confusing at first.
 - Loop labels were a thing that I was curious why it didn't exist when I first learned the `break` statement. After picking up a few more languages, I just assumed it was a thing that wasn't possible, but Rust's got it.
+
+### Chapter 4
+
+- Listing 4-3 makes it look like Rust's ownership allows for "GC-like" convenience, but the performance of a non-GC language.
+- Was scared of this being extremely hard, but chapter 4.1 makes ownership look like something that's not that hard? Maybe it's because I've only been introduced to the beginning of it, and I haven't built anything with it. But it just seems like it's trying to cleverly take care of heap allocated memory in order to avoid forgetting to free, double-free, etc.
