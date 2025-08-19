@@ -9,3 +9,4 @@ This will be a continuously updated post as I go through the Datadog learning ce
 - Course: Datadog Quick Start, <https://learn.datadoghq.com/certificates/fu0vulfmu4>
 - Course: Tagging Best Practices, <https://learn.datadoghq.com/certificates/vgsg61euwy>
 - Course: Getting Started with Metrics, <https://learn.datadoghq.com/certificates/hw2vwkftr8>
+- Course: Getting Started with Monitors, <https://learn.datadoghq.com/certificates/dlsqp04xiq>
