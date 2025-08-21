@@ -11,3 +11,4 @@ This will be a continuously updated post as I go through the Datadog learning ce
 - Course: Getting Started with Metrics, <https://learn.datadoghq.com/certificates/hw2vwkftr8>
 - Course: Getting Started with Monitors, <https://learn.datadoghq.com/certificates/dlsqp04xiq>
 - Course: Introduction to Dashboards, <https://learn.datadoghq.com/certificates/atx5bcszfy>
+- Course: Discovering Graph Widgets, <https://learn.datadoghq.com/certificates/1lbtefd4lu>
