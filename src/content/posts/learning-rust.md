@@ -46,3 +46,7 @@ As someone who is interested in the security and reliablility of software, what 
 - Was scared of this being extremely hard, but chapter 4.1 makes ownership look like something that's not that hard? Maybe it's because I've only been introduced to the beginning of it, and I haven't built anything with it. But it just seems like it's trying to cleverly take care of heap allocated memory in order to avoid forgetting to free, double-free, etc.
 - Chapter 4.2 still keeps me feeling the same way as 4.1. Seems like most of the rules are simple enough? I would think that knowing of these issues at compile-time is far better than having to track them down after it has panicked when you run it.
 - Slices was not the feature I expected to see in Rust. I'm happy it exists, as slicing is a feature I find convenient in Python, which I haven't come across in any of the other languages I've touched.
+
+### Chapter 5
+
+- Tuple structs seem like a nice in-between of tuples and structs.
