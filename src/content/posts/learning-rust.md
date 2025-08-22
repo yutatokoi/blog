@@ -50,3 +50,9 @@ As someone who is interested in the security and reliablility of software, what 
 ### Chapter 5
 
 - Tuple structs seem like a nice in-between of tuples and structs.
+
+### Chapter 6
+
+- Null reference is such a common feature in languages that I've learned that I've never appreciated it as an "invention". It's probably also not a billion dollar mistake, but rather a trillion dollar mistake.
+- Not having null is such a smart method for improving safety. But Rust still gives you the ability to have something similar with `Option<T>`. But it forces guardrails onto you.
+- `match` statements are like `switch` statements in C and Jvaa, but it must cover all possible cases. So safe!
