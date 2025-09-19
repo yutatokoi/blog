@@ -10,4 +10,4 @@ This thinking can be applied to individuals' lives for those that have a few too
 
 If the goal is to be a working software engineer, your strongest technologies should probably not be Haskell, Nix, OCaml, and Zig. You should probably spend most of your time on boring stuff that is more hireable. But you could learn Nix out of interest, and it may even open up opportunities that are otherwise impossible.
 
-This post is stating the obvious but we should be keenly aware of the limitations in resources we have. We most likely can't spend it all on "weird" things if the aim is to succeed at your goal (unless your goal is to be weird for the sake of it). Most of our attention should probably be diverted to boring stuff that is proven to work just fine.
+This post is stating the obvious but we should be keenly aware of the limitations in resources we have. We most likely can't spend it all on "weird" things if the aim is to succeed at your goal (unless your goal is to be weird for the sake of it). Most of our attention should probably be devoted to boring stuff that is proven to work just fine.
