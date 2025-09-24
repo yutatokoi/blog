@@ -1,0 +1,7 @@
+---
+const { companyURL, companyName, jobTitle, period } = Astro.props;
+---
+
+<li>
+    <a href={companyURL} target="_blank" class="text-blue-500 underline">{companyName}</a> - {jobTitle} ({period})
+</li>

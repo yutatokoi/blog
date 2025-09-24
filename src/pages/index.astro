@@ -1,6 +1,7 @@
 ---
 import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 import Layout from "../layouts/Layout.astro";
+import WorkEntry from "../components/WorkEntry.astro";
 ---
 
 <Layout
@@ -18,20 +19,8 @@ import Layout from "../layouts/Layout.astro";
     <hr />
     <h3>Internships</h3>
     <ul class="flex flex-col gap-1.5">
-      <li>
-        <a
-          href="https://atrae.co.jp/"
-          target="_blank"
-          class="text-blue-500 underline">Atrae, Inc.</a
-        > - Software Engineer Intern (2025-07)
-      </li>
-      <li>
-        <a
-          href="https://www.digitalgrid.com"
-          target="_blank"
-          class="text-blue-500 underline">DIGITAL GRID Corporation</a
-        > - Security Engineer Intern (2024-12 ~ 2025-02)
-      </li>
+      <WorkEntry companyURL="https://atrae.co.jp/" companyName="Atrae, Inc." jobTitle="Software Engineer Intern" period="2025-07" />
+      <WorkEntry companyURL="https://www.digitalgrid.com" companyName="DIGITAL GRID Corporation" jobTitle="Security Engineer Intern" period="2024-12 ~ 2025-02" />
     </ul>
     <br>
     <hr />
