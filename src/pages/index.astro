@@ -2,6 +2,7 @@
 import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 import Layout from "../layouts/Layout.astro";
 import WorkEntry from "../components/WorkEntry.astro";
+import SocialLink from "../components/SocialLink.astro";
 ---
 
 <Layout
@@ -26,27 +27,9 @@ import WorkEntry from "../components/WorkEntry.astro";
     <hr />
     <h3>Links</h3>
     <ul class="flex flex-col gap-1.5">
-      <li>
-        <a
-          href="https://github.com/yutatokoi"
-          target="_blank"
-          class="text-blue-500 underline">GitHub</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://www.linkedin.com/in/yuta-tokoi/"
-          target="_blank"
-          class="text-blue-500 underline">LinkedIn</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://github.com/yutatokoi/blog/blob/main/misc/redacted.pdf"
-          target="_blank"
-          class="text-blue-500 underline">CV</a
-        >
-      </li>
+      <SocialLink url="https://github.com/yutatokoi" name="GitHub" />
+      <SocialLink url="https://www.linkedin.com/in/yuta-tokoi/" name="LinkedIn" />
+      <SocialLink url="https://github.com/yutatokoi/blog/blob/main/misc/redacted.pdf" name="CV" />
       <li>Email: yutatokoi [at] proton.me</li>
     </ul>
     </article>
