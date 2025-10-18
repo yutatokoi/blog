@@ -1,5 +1,5 @@
 ---
-title: "第六話　mSCP-nix"
+title: "Nix修行 part 6 - mSCP-nix"
 description: "エンジニアになりたいとインターンに出て行った学生が Nix ユーザになってた　第六話"
 date: "2025-04-04"
 ---

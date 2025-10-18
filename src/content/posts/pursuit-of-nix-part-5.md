@@ -1,6 +1,6 @@
 ---
-title: "第五話　Homebrew から Nix に移行する–CLI と macOS 設定編"
-description: "エンジニアになりたいとインターンに出て行った学生が Nix ユーザになってた　第五話"
+title: "Nix修行 part 5 - Homebrew から Nix に移行する–CLI と macOS 設定編"
+description: "Nix修行 part 5"
 date: "2025-03-22"
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: "第四話　macOS を Nix で管理する方法を調べる"
-description: "エンジニアになりたいとインターンに出て行った学生が Nix ユーザになってた　第四話"
+title: "Nix修行 part 4 - macOS を Nix で管理する方法を調べる"
+description: "Nix修行 part 4"
 date: "2025-03-20"
 ---
 
