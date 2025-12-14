@@ -11,3 +11,4 @@ Of course, this list is bound to change in the future, but here is the current l
 - 塵も積もれば山になってしまう
 - The early bird gets the worm
 - The early worm gets eaten by the early bird
+- 当たり前のことを当たり前にする
