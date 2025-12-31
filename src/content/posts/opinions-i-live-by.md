@@ -21,3 +21,6 @@ Of course, this list is bound to change in the future, but here is the current l
     - 当たり前の基準を自分の中で作って仕舞えば、あとはそれを日々行うだけ。次に行きたければまた当たり前を更新する。
 - Process > Performance > Outcome
     - When settings goals, the obvious thing is to set them based on outcomes. But outcomes are generally not so controllable. What's more controllable are your actions (Process). If you get the process right, the performance improves, and the outcomes will follow.
+- Read the friendly manual
+    - Lets you discover your unknown unknowns
+    - [Mitchell Hashimoto](https://youtu.be/YQnz7L6x068?si=4ZDBqlQeqRO9pTIm&t=1422) (co-founder of Hashicorp, creator of Ghostty) [reads a manual](https://youtu.be/rysgxl35EGc?si=sVmDHbPIGr_DNGPe&t=117) before using a new technology.
