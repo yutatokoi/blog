@@ -15,3 +15,6 @@ This will just be a cotinuously updated list of Vim keys/motions/commands I foun
 - `Ctrl` + `r`
     - Redo
     - <https://linuxize.com/post/vim-undo-redo/>
+- `Ctrl` + `x` -> `Ctrl` + `f`
+    - During insert mode, on a line with a directory path like `$HOME/git`, it will expand the `$HOME` into the actual directory. For example `$HOME/git` to `Users/yutatokoi/git`
+    - Found whilst watching a [video](https://youtu.be/03KsS09YS4E?si=N-PdBXxyt0UAL7LQ&t=165)
