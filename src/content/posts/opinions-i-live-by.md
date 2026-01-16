@@ -24,3 +24,4 @@ Of course, this list is bound to change in the future, but here is the current l
 - Read the friendly manual
     - Lets you discover unknown unknowns.
     - [Mitchell Hashimoto](https://youtu.be/YQnz7L6x068?si=4ZDBqlQeqRO9pTIm&t=1422) (co-founder of Hashicorp, creator of Ghostty) [reads a manual](https://youtu.be/rysgxl35EGc?si=sVmDHbPIGr_DNGPe&t=117) before using a new technology.
+- Slow is smooth, and smooth is fast
