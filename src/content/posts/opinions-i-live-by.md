@@ -26,3 +26,4 @@ Of course, this list is bound to change in the future, but here is the current l
     - [Mitchell Hashimoto](https://youtu.be/YQnz7L6x068?si=4ZDBqlQeqRO9pTIm&t=1422) (co-founder of Hashicorp, creator of Ghostty) [reads a manual](https://youtu.be/rysgxl35EGc?si=sVmDHbPIGr_DNGPe&t=117) before using a new technology.
 - Slow is smooth, and smooth is fast
 - Sustainably produce more for the world than what you consume
+- No such thing as free lunch
