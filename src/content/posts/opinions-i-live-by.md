@@ -27,3 +27,5 @@ Of course, this list is bound to change in the future, but here is the current l
 - Slow is smooth, and smooth is fast
 - Sustainably produce more for the world than what you consume
 - No such thing as free lunch
+- Vote with your feet, Vote with your wallet
+    - Sort of like "actions speak louder than words"
