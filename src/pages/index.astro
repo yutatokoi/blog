@@ -1,7 +1,6 @@
 ---
 import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 import Layout from "../layouts/Layout.astro";
-import WorkEntry from "../components/WorkEntry.astro";
 import SocialLink from "../components/SocialLink.astro";
 ---
 
@@ -15,20 +14,11 @@ import SocialLink from "../components/SocialLink.astro";
     <h3>Yuta Tokoi</h3>
     <p>I'm interested in making software secure and reliable.
     <hr />
-    <h3>Work</h3>
-    <ul class="flex flex-col gap-1.5">
-      <WorkEntry companyURL="https://jp.corp-sansan.com/" companyName="Sansan, Inc." jobTitle="Security Engineer Intern" period="2025-12" />
-      <WorkEntry companyURL="https://atrae.co.jp/" companyName="Atrae, Inc." jobTitle="Software Engineer Intern" period="2025-07" />
-      <WorkEntry companyURL="https://www.digitalgrid.com" companyName="DIGITAL GRID Corporation" jobTitle="Security Engineer Intern" period="2024-12 ~ 2025-02" />
-    </ul>
-    <br>
-    <hr />
     <h3>Links</h3>
     <ul class="flex flex-col gap-1.5">
       <SocialLink url="https://github.com/yutatokoi" name="GitHub" />
-      <SocialLink url="https://www.linkedin.com/in/yuta-tokoi/" name="LinkedIn" />
-      <SocialLink url="https://github.com/yutatokoi/blog/blob/main/misc/redacted.pdf" name="CV" />
       <SocialLink url="https://x.com/yutatokoi/" name="X" />
+      <SocialLink url="https://www.linkedin.com/in/yuta-tokoi/" name="LinkedIn" />
       <li>Email: yutatokoi [at] proton.me</li>
     </ul>
     </article>
