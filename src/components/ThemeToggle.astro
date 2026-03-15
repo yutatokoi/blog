@@ -29,12 +29,14 @@
 </button>
 
 <script>
+  const toggleTheme = () => {
+    document.documentElement.classList.toggle("dark");
+  };
+
   const setListener = () => {
     const button = document.getElementById("theme-toggle");
-
-    button?.addEventListener("click", () => {
-      document.documentElement.classList.toggle("dark");
-    });
+    button?.removeEventListener("click", toggleTheme);
+    button?.addEventListener("click", toggleTheme);
   };
 
   setListener();
