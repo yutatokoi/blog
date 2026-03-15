@@ -1,0 +1,9 @@
+---
+const { startYear, startMonth, companyURL, companyName, positionName } = Astro.props;
+---
+
+<li>
+  {startYear}.{startMonth}-<span class="invisible select-none" aria-hidden="true">0000.00</span>
+  <a href={companyURL} target="_blank" class="text-blue-500 underline">{companyName}</a> 
+  {positionName}
+</li>

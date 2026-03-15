@@ -1,0 +1,7 @@
+---
+const { startYear, startMonth, endYear, endMonth, companyURL, companyName, positionName } = Astro.props;
+---
+
+<li>
+    {startYear}.{startMonth}-{endYear}.{endMonth} <a href={companyURL} target="_blank" class="text-blue-500 underline">{companyName}</a> {positionName}
+</li>
