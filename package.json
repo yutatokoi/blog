@@ -12,20 +12,20 @@
     "format:check": "prettier --check ."
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.7",
-    "@astrojs/sitemap": "^3.7.1",
-    "@tailwindcss/postcss": "^4.2.1",
-    "@tailwindcss/vite": "^4.2.1",
-    "astro": "^6.0.4",
-    "tailwind-merge": "^3.5.0",
-    "tailwindcss": "^4.2.1",
-    "typescript": "^5.9.3"
+    "@astrojs/check": "file:vendor/astrojs-check-0.9.7.tgz",
+    "@astrojs/sitemap": "file:vendor/astrojs-sitemap-3.7.1.tgz",
+    "@tailwindcss/postcss": "file:vendor/tailwindcss-postcss-4.2.1.tgz",
+    "@tailwindcss/vite": "file:vendor/tailwindcss-vite-4.2.1.tgz",
+    "astro": "file:vendor/astro-6.0.4.tgz",
+    "tailwind-merge": "file:vendor/tailwind-merge-3.5.0.tgz",
+    "tailwindcss": "file:vendor/tailwindcss-4.2.1.tgz",
+    "typescript": "file:vendor/typescript-5.9.3.tgz"
   },
   "devDependencies": {
-    "prettier": "^3.8.1",
-    "prettier-plugin-astro": "^0.14.1",
-    "prettier-plugin-astro-organize-imports": "^0.4.11",
-    "prettier-plugin-tailwindcss": "^0.7.2"
+    "prettier": "file:vendor/prettier-3.8.1.tgz",
+    "prettier-plugin-astro": "file:vendor/prettier-plugin-astro-0.14.1.tgz",
+    "prettier-plugin-astro-organize-imports": "file:vendor/prettier-plugin-astro-organize-imports-0.4.11.tgz",
+    "prettier-plugin-tailwindcss": "file:vendor/prettier-plugin-tailwindcss-0.7.2.tgz"
   },
   "prettier": {
     "plugins": [
